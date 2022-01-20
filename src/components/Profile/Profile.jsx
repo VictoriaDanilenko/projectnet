@@ -4,7 +4,8 @@ import MyPosts from './MyPosts/MyPosts'
 
 
 const Profile = () => {
-  return <div className={c.content}>
+  return (
+  <div className={c.content}>
     <div>
       <img src="https://images.unsplash.
 com/photo-1455540904194-fc101941273a?
@@ -16,7 +17,7 @@ auto=format&fit=crop&w=400&q=60" alt="learn english"/>
     <div>ava+description</div>
     <MyPosts/>
   </div>
-
+)
 }
 
 export default Profile;

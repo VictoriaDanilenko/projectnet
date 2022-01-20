@@ -4,8 +4,9 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import MyPosts from "./components/Profile/MyPosts/MyPosts";
+import Post from "./components/Profile/MyPosts/Posts/Post";
 
-const App = () => {
+function App() {
   return (
     <div className="app-wrapper">
       <Header />
@@ -13,6 +14,6 @@ const App = () => {
       <Profile />
     </div>
   );
-};
+}
 
 export default App;
