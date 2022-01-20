@@ -1,7 +1,9 @@
 import React from "react";
+import post from './Profile.module.css'
+
 
 const Profile = () => {
-  return <div className="content">
+  return <div className={post.content}>
     <div>
       <img src="https://images.unsplash.
 com/photo-1455540904194-fc101941273a?
@@ -14,11 +16,11 @@ auto=format&fit=crop&w=400&q=60" alt="learn english"/>
     <div>
       My post
       <div>New post</div>
-      <div>
-        <div>post 1</div>
-        <div>post 2</div>
-        <div>post 3</div>
-        <div>post 4</div>
+      <div className = 'posts'>
+        <div className = {post.item}>post 1</div>
+        <div className = {post.item}>post 2</div>
+        <div className = {post.item}>post 3</div>
+        <div className = {post.item}>post 4</div>
       </div>
     </div>
   </div>
