@@ -15,10 +15,10 @@ const MyPosts = () => {
       <div className={p.posts}>  
         <Post message='This is my first post!'/>
         <Post message='Hello everyone!'/>  
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post message='I am happy, and you?!'/>
+        <Post message='Wow it is so cool!!'/>
+        <Post message='I like it!'/>
+        <Post message='Super communication!'/>
       </div>
     </div>
   )
