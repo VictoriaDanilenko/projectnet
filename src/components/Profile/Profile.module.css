@@ -1,4 +1,5 @@
 .content {
 grid-area: c;
-background-color: rgb(150, 114, 114);
+background-color: #F4EDE6;
+padding-left: 20px;
 }

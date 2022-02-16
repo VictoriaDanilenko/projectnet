@@ -1,5 +1,8 @@
 .item {
- color: yellow;
+  color: #14183d;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  font-weight: 400;
 }
 
 .item img {

@@ -4,10 +4,7 @@ import h from './Header.module.css';
 const Header = () => {
   return <header className={h.header}>
   <img
-    src="https://cdn3.vectorstock.com/i/
-thumb-large/65/92/
-logo-or-icon-with-big-ben-for-learn-e
-nglish-vector-36666592.jpg"
+    src="https://w7.pngwing.com/pngs/814/282/png-transparent-english-learning-classroom-education-teacher-class-text-hand.png"
     alt="speak english"
   />
 </header>
