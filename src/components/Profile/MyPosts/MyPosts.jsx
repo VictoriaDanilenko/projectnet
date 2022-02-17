@@ -14,12 +14,12 @@ const MyPosts = (props) => {
         <button>Remove</button>
       </div>
       <div className={p.posts}>  
-        <Post message='This is my first post!' Post like='5'  />
-        <Post message='Hello everyone!' Post like='16'/>  
-        <Post message='I am happy, and you?!' Post like='7'/>
-        <Post message='Wow it is so cool!!' Post like='3'/> 
-        <Post message='I like it!' Post like='5'/>
-        <Post message='Super communication!' Post like='55'/>
+        <Post message='This is my first post!' likesCount='5'/>
+        <Post message='Hello everyone!' likesCount='16'/>  
+        <Post message='I am happy, and you?!' likesCount='7'/>
+        <Post message='Wow it is so cool!!' likesCount='3'/> 
+        <Post message='I like it!' likesCount='5'/>
+        <Post message='Super communication!' likesCount='55'/>
       </div>
     </div>
   )
