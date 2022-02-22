@@ -5,15 +5,17 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import MyPosts from "./components/Profile/MyPosts/MyPosts";
 import Post from "./components/Profile/MyPosts/Posts/Post";
+import Dialogs from "./components/Dialogs/Dialogs";
 
-function App() {
+const App = (props) => {
   return (
     <div className="app-wrapper">
       <Header />
       <Navbar />
-      <Profile />
+      // <Profile />
+      <Dialogs />
     </div>
   );
-}
+};
 
 export default App;
