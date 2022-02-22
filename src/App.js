@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,8 +11,9 @@ const App = (props) => {
     <div className="app-wrapper">
       <Header />
       <Navbar />
-      // <Profile />
+      <div class="app-wrapper-content"></div>
       <Dialogs />
+      {/*<Profile />*/}
     </div>
   );
 };
