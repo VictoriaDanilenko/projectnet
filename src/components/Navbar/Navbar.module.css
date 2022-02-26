@@ -1,12 +1,17 @@
 .nav {
-  grid-area: n;
-  background-color: #b19a8e;
-  padding: 20px 20px;
+    grid-area: n;
+    background-color: #b19a8e;
+    padding: 20px 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration:none;
 }
 
 .item {
-  color: rgb(41, 40, 40);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-  font-size: small;
+    color: rgb(41, 40, 40);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: small;
 }
