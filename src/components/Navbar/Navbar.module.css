@@ -5,13 +5,13 @@
 }
 
 .item a {
-    color: white;
+    color: #FFFFFF;
     text-decoration:none;
 }
 
 .item {
     color: rgb(41, 40, 40);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: small;
+    font-family: Oldenburg, Montserrat, Times New Roman, Times, serif;
+    font-weight: 600;
+    font-size: medium;
 }
